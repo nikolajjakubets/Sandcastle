@@ -43,3 +43,4 @@ if [ ${BOOT} -eq 1 ]; then
 	./load-linux.mac Android.lzma dtbpack
 fi
 killall -9 checkra1n
+killall Terminal
