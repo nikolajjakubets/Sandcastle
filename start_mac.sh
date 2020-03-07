@@ -1,5 +1,6 @@
 #!/bin/sh
 
+chmod 777 load-linux.mac
 CHECKRA1N=/Applications/checkra1n.app/Contents/MacOS/checkra1n
 export DYLD_LIBRARY_PATH=./
 
