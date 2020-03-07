@@ -1,0 +1,27 @@
+ - [03/06/20 19:35:49] <Info>: Waiting for DFU devices
+ - [03/06/20 19:36:22] <Verbose>: DFU mode device found
+ - [03/06/20 19:36:28] <Info>: Exploiting
+ - [03/06/20 19:36:28] <Verbose>: Attempting to perform checkm8 on 8010 11...
+ - [03/06/20 19:36:28] <Info>: Checking if device is ready
+ - [03/06/20 19:36:28] <Verbose>: == Checkm8 Preparation stage ==
+ - [03/06/20 19:36:28] <Verbose>: Stalled input endpoint
+ - [03/06/20 19:36:28] <Verbose>: DFU device disconnected
+ - [03/06/20 19:36:28] <Verbose>: DFU mode device found
+ - [03/06/20 19:36:28] <Info>: Setting up the exploit (this is the heap spray)
+ - [03/06/20 19:36:28] <Verbose>: == Checkm8 Setup stage ==
+ - [03/06/20 19:36:28] <Info>: Right before trigger (this is the real bug setup)
+ - [03/06/20 19:36:28] <Verbose>: Entered initial checkm8 state after 3 steps, issuing DFU abort..
+ - [03/06/20 19:36:28] <Verbose>: DFU device disconnected
+ - [03/06/20 19:36:28] <Verbose>: DFU mode device found
+ - [03/06/20 19:36:28] <Verbose>: == Checkm8 Trigger stage ==
+ - [03/06/20 19:36:28] <Verbose>: Checkmate!
+ - [03/06/20 19:36:28] <Verbose>: DFU device disconnected
+ - [03/06/20 19:36:28] <Verbose>: DFU mode device found
+ - [03/06/20 19:36:28] <Verbose>: == Checkm8 Trying to run payload... ==
+ - [03/06/20 19:36:28] <Verbose>: If everything went correctly, you should now have code execution.
+ - [03/06/20 19:36:28] <Verbose>: DFU device disconnected
+ - [03/06/20 19:36:31] <Info>: Entered download mode
+ - [03/06/20 19:36:31] <Verbose>: Download mode device found
+ - [03/06/20 19:36:31] <Info>: Booting...
+ - [03/06/20 19:36:31] <Verbose>: Setting bootargs to: rootdev=md0
+ - [03/06/20 19:36:33] <Verbose>: Download mode device disconnected
