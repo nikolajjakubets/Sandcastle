@@ -1,5 +1,8 @@
 #!/bin/bash
 cd ~/Documents/iDroid
+chmod 777 iproxy
+chmod 777 libusbmuxd.4.dylib
+chmod 777 libplist.3.dylib
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 export DYLD_LIBRARY_PATH=./
