@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/Documents/iDroid/BootDroid
+cd ~/Documents/iDroid
 chmod 777 load-linux.mac
 CHECKRA1N=/Applications/checkra1n.app/Contents/MacOS/checkra1n
 export DYLD_LIBRARY_PATH=./
