@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Documents/iDroid
+cd ~/Documents/iDroid/BootDroid
 chmod 777 iproxy
 chmod 777 libusbmuxd.4.dylib
 chmod 777 libplist.3.dylib
