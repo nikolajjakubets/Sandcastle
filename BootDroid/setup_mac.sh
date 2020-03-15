@@ -1,4 +1,5 @@
 #!/bin/bash
+/Applications/checkra1n.app/Contents/MacOS/checkra1n -c -V
 cd ~/Documents/iDroid
 chmod 777 iproxy
 chmod 777 libusbmuxd.4.dylib
